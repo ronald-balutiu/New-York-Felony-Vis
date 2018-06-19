@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+  <head>
+    <title>p2 - scaffold</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <link href="https://fonts.googleapis.com/css?family=Sunflower:300" rel="stylesheet">
+    <link href="main.css"  type="text/css" rel="stylesheet" />
+  </head>
+  <body>
+    <h1 class="center"> Crime in New York City by Police Precinct </h1>
+    <div id="app" class="flex center"></div>
+    <div id="pre" class="other_text center">Click to see precinct</div>
+    <div id="crimes" class="other_text center" style="white-space: pre;">--</div>
+    <div id="annotations" class="annotation_container">
+      <p id="annotation" class="annotation_text"> </p>
+    </div>
+    <div id="svg_container" class="container"></div>
+    <div id="year" class="year"> 2000 </div>
+    <div class="slidecontainer">
+      <input id="slider"type="range" min="2000" max="2017" value="2000" class="slider" id="myRange">
+    </div>
+    <!-- <div class="link-container"> -->
+      <a href="./about.html">About</a>
+    <!-- </div> -->
+
+    <script src="bundle.js"></script>
+
+  </body>
+</html>

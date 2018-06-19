@@ -1,0 +1,113 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+h1 {
+  font-family: 'Sunflower', sans-serif;
+  text-align: center;
+}
+
+p {
+  font-family: 'Sunflower', sans-serif;
+  text-align: center;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+a {
+  font-family: 'Sunflower', sans-serif;
+  text-align: center;
+  margin-left: 25px;
+}
+
+.flex {
+  display: flex;
+}
+.flex-column {
+  flex-direction: column;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+  height: 600px;
+}
+
+path {
+  fill: lightgrey;
+  stroke: #000;
+  stroke-linejoin: round;
+  stroke-width: 1px;
+}
+
+.slidecontainer {
+    margin-left: auto;
+    margin-right: auto;
+    width:600px;
+    height:15px;
+}
+
+/* The slider itself */
+.slider {
+    -webkit-appearance: none;  /* Override default CSS styles */
+    appearance: none;
+    width: 600px; /* Full-width */
+    height: 15px; /* Specified height */
+    background: #d3d3d3; /* Grey background */
+    outline: none; /* Remove outline */
+    opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
+}
+
+/* Mouse-over effects */
+.slider:hover {
+    opacity: 1; /* Fully shown on mouse-over */
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    border-radius: 50%;
+    background: darkred; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+}
+
+.year {
+  text-align: center;
+  font-family: 'Sunflower', sans-serif;
+  font-size: 24px;
+}
+
+.other_text {
+  text-align: center;
+  font-family: 'Sunflower', sans-serif;
+  font-size: 16px;
+}
+
+.annotation_container {
+  height: 80px;
+  width: 1200px;
+  /*outline: 1px solid black;*/
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.annotation_text {
+  font-size: 16px;
+  font-family: 'Sunflower', sans-serif;
+  text-align: center;
+}
