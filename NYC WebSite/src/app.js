@@ -2,8 +2,8 @@ import {select} from 'd3-selection';
 import {geoMercator, geoPath} from 'd3-geo';
 import {scaleLinear} from 'd3-scale';
 import {hsl} from 'd3-color';
-import geoData from '../../Data/precinct_data_min.json';
-const annotations = require('../../Data/annotations.json');
+import geoData from '../../data/precinct_data_min.json';
+const annotations = require('../../data/annotations.json');
 
 // Globals
 const precinctIds = [1, 5, 6, 7, 9, 10, 13, 14, 17, 18, 19, 20, 22, 23, 24, 25,
