@@ -1,7 +1,7 @@
 ## New York Felony Occurrence Visualization
 
 ### About
-This project was created by Jackson Quinn (Github: jackson-quinn) and I. With this project, we aimed to take a closer look at crime within NYC; on a macro-level, it is easy to see that the city as a whole has gotten significantly safer over the year. However, we wished to examine data on a precinct-by-precinct basis, hoping to find out whether crime is fundamentally decreasing, or if it is decreasing in such a way that it only benefits a select few.
+I created this project with Jackson Quinn (GitHub: jackson-quinn). With this project, we aimed to take a closer look at crime within NYC; on a macro-level, it is easy to see that the city as a whole has gotten significantly safer over the year. However, we wished to examine data on a precinct-by-precinct basis, hoping to find out whether crime is fundamentally decreasing, or if it is decreasing in such a way that it only benefits a select few.
 
 We have acquired our data from the NYC website (linked to [here](http://www1.nyc.gov/site/nypd/stats/crime-statistics/historical.page)), and we have chosen to focus on what the NYPD describes as the "seven major" felonies. These are murder, sexual assault, robbery, felony assault, burglary, grand larceny, and grand theft auto. Our work produces an interactive visualization that allows viewers to examine data on a macro-level (using our color-map) but also on a micro-level by clicking an individual precinct during a given year. We have provided a slider at the bottom of the webpage to allow users to move through the years efficiently, and also an about page for some more information on the project. Annotations are provided at the top which help place the state of the city in some context.
 
